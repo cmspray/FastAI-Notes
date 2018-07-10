@@ -1,4 +1,4 @@
-[<<](../README.md)
+[<<](/README.md)
 #  [Lesson 1](https://youtu.be/IPBSB1HLNLo)
 
 ## Neural Network
@@ -10,4 +10,4 @@
   - This is done by changing the parameters a little bit and checking how that affects the loss
   - This was a very slow process before GPU's
 
-[<<](../README.md)
+[<<](/README.md)

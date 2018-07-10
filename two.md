@@ -1,4 +1,4 @@
-[<<](../README.md)
+[<<](/README.md)
 #  [Lesson 2](https://youtu.be/JNxcznsrRb8)
 
 ## Learning Rate
@@ -52,4 +52,4 @@
 ## Changing data set
 - You can start by training on a small training set, then later reset the data to a larger set, this reduces training time by getting a good starting point
 
-[<<](../README.md)
+[<<](/README.md)

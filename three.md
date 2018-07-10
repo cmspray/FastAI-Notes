@@ -1,4 +1,4 @@
-[<<](../README.md)
+[<<](/README.md)
 # [Lesson Three](https://youtu.be/9C06ZPF8Uuc)
 
 - Precompute is only a way to cache some steps to speed it up
@@ -22,4 +22,4 @@
 - This is done again and again until the last layer
 - Some layers may check for left edges, lower edges, eyes, etc
 
-[<<](../README.md)
+[<<](/README.md)
