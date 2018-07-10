@@ -1,9 +1,5 @@
-#  [Lesson 1](https://www.youtube.com/watch?v=IPBSB1HLNLo&list=PLfYUBJiXbdtS2UQRzyrxmyVHoGW0gmLSM&index=1)
-
-## Dogs vs Cats
-This lesson went over using [fast.ai](fast.ai) to build a deep learning model that classifies dogs vs. cats.
-
-Most of the lesson was just how to use the fast.ai library, but not much in depth on what exactly it is doing.
+[<<](../README.md)
+#  [Lesson 1](https://youtu.be/IPBSB1HLNLo)
 
 ## Neural Network
 - This is the underlying function behind deep learning
@@ -13,3 +9,5 @@ Most of the lesson was just how to use the fast.ai library, but not much in dept
 - [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) is what is used to fit the parameters minimizing the [loss function](https://en.wikipedia.org/wiki/Loss_function)
   - This is done by changing the parameters a little bit and checking how that affects the loss
   - This was a very slow process before GPU's
+
+[<<](../README.md)
