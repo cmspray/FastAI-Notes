@@ -7,6 +7,7 @@
   - sum of softmax should be 1
   - inputs should be >= 0
 - Since images are matricies, multiply by some number to make it less washed out
+- Fast AI you can resize all the images with a `data.resize()` to speed up training
 
 ## bn_freeze
 - If you're using a deeper model, if the dataset is similar to the dataset that trained the model, this will help (more about this later in the course)
@@ -21,5 +22,14 @@
 - Matrix of N x N is multiplied by each N x N section of the image and outputs the next layer ([Excel Example](https://docs.google.com/spreadsheets/d/1rXJ_tmMAePh07nBdMBc18kfaANP02vL0E9ii-kSRsnA/edit#gid=1707540045))
 - This is done again and again until the last layer
 - Some layers may check for left edges, lower edges, eyes, etc
+
+## Multi-Label Classification
+- Instead of softmax use the sigmoid function
+
+## Visualize model
+- learn.summary
+  - Shows what each layer is doing
+
+
 
 [<<](/README.md)
