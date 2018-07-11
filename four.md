@@ -31,4 +31,18 @@
 ## fast.ai add_datepart
 - Takes a dataframe and a column name (that is a date) this removes the column and adds columns for useful parts of the date (year, month, day, etc.)
 
+# NLP - Intro
+## Language Models
+- For example, can be used to guess next word in a sentence or if a block of text is generally positive or negative
+  - [**torchtext**](https://github.com/pytorch/text)
+  - [**spacy_tok:**](https://spacy.io/api/tokenizer) is a common python library that tokenizes natural language
+
+## fast.ai language Models
+- **min_freq** variable in `LanguageModelData` constructor will drop words that don't appear that many times
+- When `LanguageModelData` is created, it adds a `vocab` variable to the `TEXT` passed which contains the entire datasets vocab mapped to integers
+- **bptt (Back prop through time)** is the length of text being used each batch
+  - The length is randomized each iteration
+- Each word in the vocab gets it's own embedding vector (it's just a categorical variable)
+- **learner.clip** ensures you don't move the learning rate too far
+
 [<<](/README.md)
