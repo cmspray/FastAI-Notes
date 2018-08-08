@@ -5,3 +5,4 @@
 - [Lesson 3](three.md)
 - [Lesson 4](four.md)
 - [Lesson 5](five.md)
+- [Lesson 6](six.md)
